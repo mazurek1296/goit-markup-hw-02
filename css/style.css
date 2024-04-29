@@ -39,6 +39,10 @@ header {
   display: inline-block;
   background-color: #ffffff;
 }
+.address {
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
 .slogan {
   font-size: 56px;
   line-height: 1.07;
@@ -162,14 +166,6 @@ p {
 }
 .type {
   line-height: 1.5;
-}
-.web {
-  color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .studio1 {
   color: #2e2f42;
