@@ -90,6 +90,9 @@ header {
 .btn:active {
   background-color: #404bbf;
 }
+.btn:focus {
+  background-color: #404bbf;
+}
 .btn:hover {
   background-color: #404bbf;
 }
@@ -152,6 +155,10 @@ p {
 .portfolio {
   color: #2e2f42;
 }
+.akapit {
+  line-height: 1.5;
+}
+
 .web {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -189,4 +196,5 @@ p {
   font-family: "Roboto", sans-serif;
   text-align: left;
   font-size: 16px;
+  line-height: 1.5;
 }
