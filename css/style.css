@@ -10,10 +10,51 @@ header {
 }
 .navi {
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.navi:hover {
+  color: #404bbf;
+}
+.navi:active {
+  color: #404bbf;
+}
+.navi:focus {
+  color: #404bbf;
+}
+.inline-sections {
+  display: inline;
+}
+.inline {
+  display: inline-block;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .link {
   color: #434455;
+  line-height: 24px;
+  font-size: 16px;
+}
+.link:focus {
+  color: #404bbf;
+}
+.link:hover {
+  color: #404bbf;
+}
+.link:active {
+  color: #404bbf;
 }
 .effective {
   color: #ffffff;
@@ -24,8 +65,13 @@ header {
 }
 .btn {
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 428px;
+  margin-left: 636px;
+  cursor: pointer;
 }
 h3 {
   color: #2e2f42;
@@ -47,13 +93,17 @@ p {
 }
 .horizontal {
   list-style-type: none;
-}
-.horizontal li {
   display: inline-block;
 }
 .team {
   background-color: #f4f4fd;
   color: 2e2f42;
+}
+.job-position {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #434455;
 }
 .portfolio {
   color: #2e2f42;
@@ -83,4 +133,5 @@ p {
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   text-align: left;
+  font-size: 16px;
 }
