@@ -49,7 +49,6 @@ header {
   letter-spacing: 0.02em;
 }
 .visually-hidden {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -167,13 +166,13 @@ p {
 .type {
   line-height: 1.5;
 }
-.studio1 {
+.studio {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
-.studio2 {
+.fstudio {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
