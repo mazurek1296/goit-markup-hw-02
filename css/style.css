@@ -49,11 +49,6 @@ header {
   letter-spacing: 0.02em;
 }
 .visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -88,8 +83,6 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-top: 428px;
-  margin-left: 636px;
   cursor: pointer;
 }
 .btn:active {
