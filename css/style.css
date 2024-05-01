@@ -70,6 +70,7 @@ header {
   font-size: 56px;
   font-weight: 700;
   background-color: #2e2f42;
+  text-align: center;
 }
 .btn {
   background-color: #4d5ae5;
@@ -96,9 +97,14 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
 p {
   color: #434455;
+  text-align: center;
   letter-spacing: 0.02em;
 }
 .motto {
@@ -131,6 +137,7 @@ p {
 .job-position {
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
   color: #434455;
 }
 .our-portfolio {
@@ -173,6 +180,7 @@ p {
 .pfooter {
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
+
   font-size: 16px;
   line-height: 1.5;
 }
