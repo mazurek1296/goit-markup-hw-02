@@ -122,7 +122,6 @@ p {
 }
 .horizontal {
   list-style-type: none;
-  display: inline-block;
 }
 .our-team {
   font-size: 36px;
