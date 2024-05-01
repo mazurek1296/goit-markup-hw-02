@@ -32,11 +32,8 @@ header {
 .navi:focus {
   color: #404bbf;
 }
-.inline-sections {
-  display: inline;
-}
+
 .inline {
-  display: inline-block;
   background-color: #ffffff;
 }
 .address {
